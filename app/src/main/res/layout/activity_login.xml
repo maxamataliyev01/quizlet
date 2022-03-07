@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login_bg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="160dp"
+        app:cardCornerRadius="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="145dp"
+                app:cardCornerRadius="30dp">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/nameEnter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/enter_name"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColorHint="@color/black"
+                        android:background="#FFFFFF" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Play_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardCornerRadius="30dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_below="@+id/cardName"
+                android:layout_marginTop="30dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/playbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#8695EA"
+                    android:text="@string/Play">
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Settings_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardCornerRadius="30dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_below="@+id/Play_button"
+                android:layout_marginTop="10dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#8695EA"
+                    android:text="@string/Settings">
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Score_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardCornerRadius="30dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_below="@+id/Settings_button"
+                android:layout_marginTop="10dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#8695EA"
+                    android:text="@string/Score">
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/About_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardCornerRadius="30dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_below="@+id/Score_button"
+                android:layout_marginTop="10dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#8695EA"
+                    android:text="@string/About">
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="90dp"
+        android:background="@color/black"
+        app:cardCornerRadius="100dp" >
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_icon"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">QuizLet</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter">Enter</string>
+    <string name="Play">Play</string>
+    <string name="Settings">Settings</string>
+    <string name="Score">Score</string>
+    <string name="About">About</string>
+    <string name="giraffe">Giraffe</string>
+    <string name="lion">lion</string>
+    <string name="savol">Savol</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="player_name">Player Name</string>
+    <string name="choose_question_type">Choose Question Type</string>
+    <string name="submit">Submit</string>
+    <string name="option4">option4</string>
+    <string name="option3">option3</string>
+    <string name="option2">option2</string>
+    <string name="option1">option1</string>
+    <string name="enter_your_question">ENTER YOUR QUESTION</string>
+    <string name="congrotulation_name">Congrotulation Name!!</string>
+    <string name="congratulation_name">congratulation_name</string>
+
+</resources>
